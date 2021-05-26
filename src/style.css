@@ -223,6 +223,7 @@ footer {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    z-index: 999;
 }
 
 .modal-overlay.active {
@@ -235,6 +236,7 @@ footer {
     padding: 2.4rem;
     width: 90%;
     max-width: 500px;
+    z-index: 1;
 }
 
 /* Form */
@@ -251,14 +253,14 @@ input {
     border: none;
     border-radius: 0.2rem;
     padding: 0.8rem;
-    width: 100%;;
+    width: 100%;
 }
 
 .input-group {
     margin: 0.8rem 0 0 0;
 }
 
-.input-group small {
+.input-group small.help-field {
     opacity: 0.4;
 }
 
